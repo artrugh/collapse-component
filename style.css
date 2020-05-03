@@ -1,0 +1,22 @@
+.question:hover {
+    color: purple;
+}
+
+.selected {
+    color: red
+}
+
+.collapsed {
+    /* background-color: red; */
+    transition: max-height 0.5s ease-out;
+    max-height: 0;
+    overflow: hidden;  
+}
+
+.active {
+    /* background-color: blue; */
+    overflow: hidden;
+    transition: max-height 0.7s ease-out;
+    max-height: 200px;
+    transition-delay: 0.7s;   
+}

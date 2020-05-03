@@ -1,0 +1,1 @@
+Basic Sketch Collapser using Plain Vanilla JS.
